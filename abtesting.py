@@ -207,10 +207,6 @@ test_stat, pvalue = mannwhitneyu(df.loc[df["smoker"] == "Yes", "total_bill"],
 print('Test Stat = %.4f, p-value = %.4f' % (test_stat, pvalue))
 
 
-
-
-
-
 ############################
 # Uygulama 2: Titanic Kadın ve Erkek Yolcuların Yaş Ortalamaları Arasında İstatistiksel Olarak Anl. Fark. var mıdır?
 ############################
@@ -257,17 +253,6 @@ print('Test Stat = %.4f, p-value = %.4f' % (test_stat, pvalue))
 
 
 # 90 280
-
-
-
-
-
-
-
-
-
-
-
 
 ############################
 # Uygulama 3: Diyabet Hastası Olan ve Olmayanların Yaşları Ort. Arasında İst. Ol. Anl. Fark var mıdır?
